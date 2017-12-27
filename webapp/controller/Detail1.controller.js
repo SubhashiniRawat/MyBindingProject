@@ -20,8 +20,12 @@ sap.ui.define([
 			this._orderId = oEvent.getParameter("arguments").orderId;
 			this.getView().bindElement({
 				path: "/orders/" + this._orderId
+<<<<<<< HEAD
 			});
 			//"/orders[" +	thi s._orderId  + "]");
+=======
+			}); //"/orders[" +	this._orderId  + "]");
+>>>>>>> branch 'master' of https://github.com/SubhashiniRawat/MyBindingProject.git
 		},
 
 		onSelectionChange: function(oEvent) {
