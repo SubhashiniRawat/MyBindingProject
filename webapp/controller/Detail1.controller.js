@@ -44,7 +44,7 @@ sap.ui.define([
 			}
 		},
 		
-		donotchange : function()
+		donotchang : function()
 		{
 			this.getOwnerComponent().getRouter().getRoute("orderDetails").attachPatternMatched(this._onRouteMatched, this);
 		}
