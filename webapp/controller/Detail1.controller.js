@@ -22,6 +22,7 @@ sap.ui.define([
 				path: "/orders/" + this._orderId
 
 			});
+			//changed
 		//"/orders[" +	this._orderId  + "]");
 	},
 
