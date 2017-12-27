@@ -42,6 +42,11 @@ sap.ui.define([
 			} else {
 				this.getOwnerComponent().getRouter().navTo("master", {}, true);
 			}
+		},
+		
+		mychangeFunction : function()
+		{
+			this.getOwnerComponent().getRouter().getRoute("orderDetails").attachPatternMatched(this._onRouteMatched, this);
 		}
 
 		/**
